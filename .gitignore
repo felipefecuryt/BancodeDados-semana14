@@ -1,0 +1,23 @@
+# Dependências
+node_modules/
+__pycache__/
+venv/
+
+# Variáveis de ambiente e credenciais
+.env
+.env.*
+*.pem
+
+# Dumps e artefatos locais de banco
+*.dump
+*.sql.gz
+data/
+
+# Sistema operacional / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
